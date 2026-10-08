@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="270" viewBox="0 0 960 270" role="img" aria-labelledby="t d">
-  <title id="t">Vonzlov / ai-engineer</title>
-  <desc id="d">Nikita Kozlov, AI engineer. Projects: pptx-telegram-bot, llm-bench, pqc-scout.</desc>
+  <title id="t">Nikita Kozlov — AI engineer</title>
+  <desc id="d">Building LLM agents and RAG for real business processes. Projects: pptx-telegram-bot, llm-bench, pqc-scout.</desc>
   <rect x="0.5" y="0.5" width="959" height="269" rx="14" fill="#0d1117" stroke="#30363d"/>
 
-  <text x="36" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e" letter-spacing="1">model card</text>
+  <text x="36" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e" letter-spacing="1">AI engineer</text>
   <rect x="36" y="62" width="44" height="44" rx="10" fill="#2b1f47"/>
   <text x="58" y="90" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#e2d4ff">NK</text>
-  <text x="96" y="94" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="28"><tspan fill="#8b949e">Vonzlov / </tspan><tspan fill="#e6edf3" font-weight="600">ai-engineer</tspan></text>
+  <text x="96" y="94" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="28" font-weight="600" fill="#e6edf3">Nikita Kozlov</text>
 
-  <text x="36" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">AI engineer building LLM agents and RAG</text>
+  <text x="36" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">Building LLM agents and RAG</text>
   <text x="36" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" fill="#e6edf3">for real business processes</text>
 
   <rect x="36" y="190" width="108" height="26" rx="6" fill="#271c3f"/>
@@ -19,17 +19,17 @@
   <text x="298.0" y="207.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#d2a8ff">process-automation</text>
   <rect x="36" y="224" width="75" height="26" rx="6" fill="#0f2a44"/>
   <text x="73.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#79c0ff">python</text>
-  <rect x="119" y="224" width="51" height="26" rx="6" fill="#0f2a44"/>
-  <text x="144.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#79c0ff">n8n</text>
-  <rect x="178" y="224" width="75" height="26" rx="6" fill="#0f2a44"/>
-  <text x="215.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#79c0ff">docker</text>
-  <rect x="261" y="224" width="83" height="26" rx="6" fill="#10291c"/>
-  <text x="302.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7ee787">english</text>
-  <rect x="352" y="224" width="83" height="26" rx="6" fill="#10291c"/>
-  <text x="393.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7ee787">russian</text>
+  <rect x="119" y="224" width="108" height="26" rx="6" fill="#0f2a44"/>
+  <text x="173.0" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#79c0ff">javascript</text>
+  <rect x="235" y="224" width="51" height="26" rx="6" fill="#10291c"/>
+  <text x="260.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7ee787">n8n</text>
+  <rect x="294" y="224" width="75" height="26" rx="6" fill="#10291c"/>
+  <text x="331.5" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7ee787">docker</text>
+  <rect x="377" y="224" width="108" height="26" rx="6" fill="#10291c"/>
+  <text x="431.0" y="241.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7ee787">kubernetes</text>
 
   <rect x="652" y="36" width="272" height="198" rx="10" fill="#161b22" stroke="#30363d"/>
-  <text x="672" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3">Spaces using this model</text>
+  <text x="672" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e6edf3">Projects</text>
   <circle cx="678" cy="96" r="5" fill="#3fb950"/>
   <text x="696" y="101" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e6edf3">pptx-telegram-bot</text>
   <text x="696" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">text → corporate .pptx</text>
