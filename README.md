@@ -5,9 +5,15 @@
 
 <p align="right"><b>English</b> · <a href="README_RU.md">Русский</a></p>
 
-I build LLM-powered tools for real business processes: assistants inside the software people already use, automation of routine work and pipelines that turn plain text into finished documents.
+I build LLM-powered tools for real business processes, from assistants inside the software people already use to process automation, and Kubernetes infrastructure for running pipelines.
 
 ## Projects
+
+### [Tellix](https://github.com/Vonzlov/Tellix) &nbsp; ![in development](https://img.shields.io/badge/status-in%20development-d29922?style=flat-square)
+
+Kubernetes-native workflow engine for multi-step pipelines, ML included. Each step runs as its own Kubernetes Job in dependency order and passes its output files to the next steps; runs are stored in the cluster as a custom resource and driven by an operator.
+
+**Stack:** Python, FastAPI, kopf, Kubernetes (CRD, Jobs, RBAC), Helm, SeaweedFS (S3), Docker, GitHub Actions, kind, pytest
 
 ### [pptx-telegram-bot](https://github.com/Vonzlov/pptx-telegram-bot) &nbsp; ![stable](https://img.shields.io/badge/status-stable-2ea44f?style=flat-square)
 
@@ -43,13 +49,14 @@ Assistant for migrating code to post-quantum cryptography: finds quantum-vulnera
 
 - **Languages:** Python, JavaScript, SQL, VBA
 - **LLM:** OpenAI-compatible APIs, Ollama, vLLM, LLM agents, RAG, prompt engineering, LLM evaluation
-- **Automation:** n8n, Telegram bots (aiogram), RPA (PIX), Bubble.io
-- **Infrastructure:** Docker, k3s, Kubernetes (kind), Git, Linux
+- **Backend:** FastAPI, pydantic, aiogram, REST APIs, S3 (boto3), pytest
+- **Infrastructure:** Kubernetes (CRD, operators), Helm, Docker, k3s, kind, GitHub Actions, Linux, Git
+- **Automation:** n8n, Telegram bots, RPA (PIX), Bubble.io
 
 ## How I work
 
-- **Simplicity over elegance.** Straightforward code that the next person can read and maintain, even at the cost of some duplication.
-- **Reliability first.** A tool embedded in someone's workflow doesn't crash on unexpected input: anything it can't handle gets skipped or flagged.
+- **Code the whole team can own.** Solutions any engineer can read, extend and maintain from day one.
+- **Reliability first.** A tool embedded in someone's workflow handles unexpected input gracefully: unknown items are skipped or flagged, and the run keeps going.
 - **Measure, then choose.** I pick a model by testing it on the actual task, not by its reputation.
 
 ## Contact
