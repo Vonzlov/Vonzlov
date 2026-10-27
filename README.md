@@ -21,6 +21,12 @@ Telegram bot that turns plain text into a ready `.pptx` deck in a corporate temp
 
 **Stack:** Python, aiogram, python-pptx, pydantic, Ollama (optional), Docker, pytest
 
+### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![in development](https://img.shields.io/badge/status-in%20development-d29922?style=flat-square)
+
+Telegram assistant for Magic: The Gathering that answers questions about cards and game mechanics, typed or sent as voice messages. A LangGraph agent on a local LLM looks cards up in the Scryfall API through a tool, transcribes voice with Whisper and keeps per-chat memory.
+
+**Stack:** Python, LangGraph, LangChain, Ollama, faster-whisper, aiogram, httpx, Scryfall API
+
 ### [llm-bench](https://github.com/Vonzlov/llm-bench) &nbsp; ![in development](https://img.shields.io/badge/status-in%20development-d29922?style=flat-square)
 
 Benchmark service for choosing an LLM for a specific task: runs the same task set through local models and cloud APIs and compares the results.
@@ -48,7 +54,7 @@ Assistant for migrating code to post-quantum cryptography: finds quantum-vulnera
 ## Stack
 
 - **Languages:** Python, JavaScript, SQL, VBA
-- **LLM:** OpenAI-compatible APIs, Ollama, vLLM, LLM agents, RAG, prompt engineering, LLM evaluation
+- **LLM:** LangGraph, LangChain, OpenAI-compatible APIs, Ollama, vLLM, LLM agents, tool calling, RAG, prompt engineering, LLM evaluation
 - **Backend:** FastAPI, pydantic, aiogram, REST APIs, S3 (boto3), pytest
 - **Infrastructure:** Kubernetes (CRD, operators), Helm, Docker, k3s, kind, GitHub Actions, Linux, Git
 - **Automation:** n8n, Telegram bots, RPA (PIX), Bubble.io

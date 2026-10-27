@@ -21,6 +21,12 @@ Telegram-бот, который превращает обычный текст �
 
 **Стек:** Python, aiogram, python-pptx, pydantic, Ollama (опционально), Docker, pytest
 
+### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![в разработке](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%B2%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-d29922?style=flat-square)
+
+Telegram-ассистент по Magic: The Gathering, который отвечает на вопросы о картах и игровых механиках — текстом или голосовыми сообщениями. Агент на LangGraph с локальной LLM ищет карты в Scryfall API через инструмент, распознаёт голос с помощью Whisper и помнит контекст диалога в каждом чате.
+
+**Стек:** Python, LangGraph, LangChain, Ollama, faster-whisper, aiogram, httpx, Scryfall API
+
 ### [llm-bench](https://github.com/Vonzlov/llm-bench) &nbsp; ![в разработке](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%B2%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-d29922?style=flat-square)
 
 Сервис-бенчмарк для выбора LLM под конкретную задачу: прогоняет один и тот же набор задач через локальные модели и облачные API и сравнивает результаты.
@@ -48,7 +54,7 @@ Telegram-бот, который превращает обычный текст �
 ## Стек
 
 - **Языки:** Python, JavaScript, SQL, VBA
-- **LLM:** OpenAI-совместимые API, Ollama, vLLM, LLM-агенты, RAG, промпт-инжиниринг, оценка LLM
+- **LLM:** LangGraph, LangChain, OpenAI-совместимые API, Ollama, vLLM, LLM-агенты, вызов инструментов (tool calling), RAG, промпт-инжиниринг, оценка LLM
 - **Бэкенд:** FastAPI, pydantic, aiogram, REST API, S3 (boto3), pytest
 - **Инфраструктура:** Kubernetes (CRD, операторы), Helm, Docker, k3s, kind, GitHub Actions, Linux, Git
 - **Автоматизация:** n8n, Telegram-боты, RPA (PIX), Bubble.io
