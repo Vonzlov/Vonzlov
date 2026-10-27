@@ -21,7 +21,7 @@ Telegram-бот, который превращает обычный текст �
 
 **Стек:** Python, aiogram, python-pptx, pydantic, Ollama (опционально), Docker, pytest
 
-### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![в разработке](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%B2%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5-d29922?style=flat-square)
+### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![стабильно](https://img.shields.io/badge/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81-%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE-2ea44f?style=flat-square)
 
 Telegram-ассистент по Magic: The Gathering, который отвечает на вопросы о картах и игровых механиках — текстом или голосовыми сообщениями. Агент на LangGraph с локальной LLM ищет карты в Scryfall API через инструмент, распознаёт голос с помощью Whisper и помнит контекст диалога в каждом чате.
 

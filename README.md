@@ -21,7 +21,7 @@ Telegram bot that turns plain text into a ready `.pptx` deck in a corporate temp
 
 **Stack:** Python, aiogram, python-pptx, pydantic, Ollama (optional), Docker, pytest
 
-### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![in development](https://img.shields.io/badge/status-in%20development-d29922?style=flat-square)
+### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![stable](https://img.shields.io/badge/status-stable-2ea44f?style=flat-square)
 
 Telegram assistant for Magic: The Gathering that answers questions about cards and game mechanics, typed or sent as voice messages. A LangGraph agent on a local LLM looks cards up in the Scryfall API through a tool, transcribes voice with Whisper and keeps per-chat memory.
 
