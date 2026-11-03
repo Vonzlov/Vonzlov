@@ -67,5 +67,4 @@ Telegram-ассистент по Magic: The Gathering, который отвеч
 
 ## Контакты
 
-<!-- TODO: подставить свои ссылки, лишнее удалить -->
-[LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE) · [Telegram](https://t.me/YOUR-HANDLE) · [Email](mailto:YOUR-EMAIL)
+[LinkedIn](https://www.linkedin.com/in/vonzlov) · [Telegram](https://t.me/vonzlov) · [Email](mailto:kozlov.nik2001@gmail.com)
