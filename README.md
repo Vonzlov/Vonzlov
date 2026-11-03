@@ -23,9 +23,9 @@ Telegram bot that turns plain text into a ready `.pptx` deck in a corporate temp
 
 ### [mtg-bot](https://github.com/Vonzlov/mtg-bot) &nbsp; ![stable](https://img.shields.io/badge/status-stable-2ea44f?style=flat-square)
 
-Telegram assistant for Magic: The Gathering that answers questions about cards and game mechanics, typed or sent as voice messages. A LangGraph agent on a local LLM looks cards up in the Scryfall API through a tool, transcribes voice with Whisper and keeps per-chat memory.
+Telegram assistant for Magic: The Gathering that answers questions about cards, mechanics and game rules, typed or sent as voice messages. A LangGraph agent on a local LLM looks cards up in the Scryfall API and answers rules questions with RAG over the official Comprehensive Rules, citing rule numbers; voice is transcribed with Whisper.
 
-**Stack:** Python, LangGraph, LangChain, Ollama, faster-whisper, aiogram, httpx, Scryfall API
+**Stack:** Python, LangGraph, LangChain, Ollama, nomic-embed-text, faster-whisper, aiogram, httpx, Scryfall API
 
 ### [llm-bench](https://github.com/Vonzlov/llm-bench) &nbsp; ![in development](https://img.shields.io/badge/status-in%20development-d29922?style=flat-square)
 
